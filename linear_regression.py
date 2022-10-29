@@ -12,4 +12,5 @@ def l_regression(filename):
   plt.title('Salary vs Experience (Training Set')
   plt.xlabel('Years of Experience')
   plt.ylabel('Salary')
-  plt.show
+  plt.figure()
+  plt.pause(0.1)
